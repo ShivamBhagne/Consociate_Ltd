@@ -1,0 +1,39 @@
+form {
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+  margin: auto;
+}
+
+form div {
+  margin-bottom: 15px;
+  
+}
+
+label {
+  font-weight: bold;
+}
+
+.error {
+  color: red;
+  font-size: 12px;
+}
+
+button {
+  padding: 8px 12px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.submitted-data {
+  margin-top: 20px;
+  padding: 10px;
+  border: 1px solid #ccc;
+
+}
